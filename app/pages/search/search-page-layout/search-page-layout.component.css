@@ -1,0 +1,10 @@
+.container{
+    font-family: Arial;
+    font-size:12px;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+}

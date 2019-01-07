@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+html,body{
+    height:100vh;
+    
+}
+body{
+    font-family:Arial;
+    font-size:12px;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}

@@ -1,0 +1,6 @@
+<div *ngIf='selectedResult;else noItemSelected' style="padding-left:5px;padding-top:5px;">
+  <p><span>view count : </span>{{selectedResult.view_count}}</p>
+  <p><span>score : </span>{{selectedResult.score}}</p>
+  <p><span>Link : </span><a  [attr.href]='selectedResult.link'>{{selectedResult.link}}</a> </p>
+</div>
+<ng-template #noItemSelected>no item selected</ng-template>

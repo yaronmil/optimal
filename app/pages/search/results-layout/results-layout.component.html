@@ -1,0 +1,11 @@
+<div class="resultsWrapper">
+  <div class='list contentWrapper'>
+    <ul>
+      <li *ngFor='let item of results | async' [ngClass]="{'selected':selectedResult==item}" (click)='selectedResult=item'>{{item.title}}</li>
+    </ul>
+  </div>
+  <div class='spacer'></div>
+  <div class='details contentWrapper'>
+<app-result-details [selectedResult]='selectedResult'></app-result-details>
+  </div>
+</div>
